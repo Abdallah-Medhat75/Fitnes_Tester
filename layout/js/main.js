@@ -13,7 +13,7 @@ let h3Clicked = false;
         if (!clicked) {
             clicked = true;
             button.style.backgroundColor = "lightseagreen";
-            button.children[0].style.transform = "translate(calc(100% + 4px), -50%)";
+            button.children[0].style.transform = "translate(calc(100% + 30px), -50%)";
         } else {
             clicked = false;
             button.style.backgroundColor = "rgba(98,121,184,1)";
