@@ -4,7 +4,6 @@ let h3Shower = document.getElementById("shower");
 // Start Flags
 let clicked = false;
 let h3Clicked = false;
-
 // End Flags
 // End Global Variables
 // Start Functions
