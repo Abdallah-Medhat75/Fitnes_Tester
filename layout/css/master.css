@@ -230,6 +230,7 @@ button {
         padding: 0 20px;
     }
     .page section .content .container {
-        gap: 0;
+        gap: 5px;
+        flex-direction: column;
     }
 }
