@@ -1,0 +1,101 @@
+doctype html
+html(lang='en')
+	head
+		meta(charset='UTF-8')
+		meta(name='viewport' content='width=device-width,initial-scale=1')
+		title Fitness
+		link(rel='stylesheet' href='layout/css/master.css')
+	body
+		.page
+			nav
+				i.fa-solid.fa-bars
+				|  
+				a.active(href)
+					i.fa-solid.fa-house
+					|  
+				a(href)
+					i.fa-solid.fa-dumbbell
+					|  
+				a(href)
+					i.fa-solid.fa-calendar-days
+					|  
+				a(href)
+					i.fa-solid.fa-gear
+					|  
+				a(href)
+					i.fa-solid.fa-newspaper
+					|  
+				a(href)
+					i.fa-solid.fa-user
+			section
+				header
+					span Logo
+					.settings
+						select(name)
+							option(value='en') English
+							option(value='ar') العربية
+						.search
+							label(for='searchInput')
+							|  
+							input#searchInput(type='search' name)
+						a(href)
+							i.fa-solid.fa-user
+				.content
+					.container
+						#replace
+							.human-body
+								|  
+								// ?xml version="1.0" encoding="UTF-8" standalone="no"?
+								| 
+								include svg.pug
+						.features
+							.switcher
+								button
+									span
+										i.fa-solid.fa-person.fa-fw
+								|  
+								button
+									span
+								|  
+								button
+									span
+							.equipment
+								h3#shower
+									| Equipment 
+									span
+										i.fa-solid.fa-plus
+								.input-holder
+									label
+										input(type='checkbox' name='featured')
+										|  Featured
+									|  
+									label
+										input(type='checkbox' name='featured')
+										|  Featured
+									|  
+									label
+										input(type='checkbox' name='featured')
+										|  Featured
+									|  
+									label
+										input(type='checkbox' name='featured')
+										|  Featured
+									|  
+									label
+										input(type='checkbox' name='featured')
+										|  Featured
+									|  
+									label
+										input(type='checkbox' name='featured')
+										|  Featured
+									|  
+									label
+										input(type='checkbox' name='featured')
+										|  Featured
+									|  
+									label
+										input(type='checkbox' name='featured')
+										|  Featured
+		script(src='https://kit.fontawesome.com/ed80b4c56c.js' crossorigin='anonymous')
+		script(src='layout/js/body.js')
+		script(src='layout/js/main.js')
